@@ -1,0 +1,1 @@
+import{z as o}from"./B6SZ7wDr.js";import{r as t,d as a,D as u,E as c,V as f,W as s,u as r}from"./PJKJigF0.js";const i={userName:"易师傅",id:1,sex:"男"},m=o("userInfo",()=>({userInfo:t(i)})),I=a({__name:"test",setup(n){const e=m().userInfo;return(l,p)=>(u(),c("div",null,[f("strong",null," 姓名："+s(r(e).userName)+" 性别："+s(r(e).sex),1)]))}});export{I as default};
